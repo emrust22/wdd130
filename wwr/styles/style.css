@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@200;400;700&display=swap');
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,15 +8,27 @@ nav a{
     text-align: center;
     color: #D98060;
     text-decoration: none;
+    font-family: 'Merriweather','Times New Roman', Times, serif;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
+    color: #D98060;
+    font-family: 'Merriweather','Times New Roman', Times, serif;
+    
 }
 #hero-msg h4{
     text-align: center;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #232323;
 }
 .button-box{
     text-align: center;
+}
+.logo{
+    width: 80px;
+    padding-top: 5px;
 }
 main section{
     text-align: center;
@@ -25,6 +39,12 @@ main section{
 }
 body{
     background-color: #FCF8F0;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+main section img{ 
+    box-sizing: border-box;
 }
 header{
     background-color: #FCF8F0;
@@ -35,49 +55,85 @@ nav a:hover{
     text-decoration: none;
 }
 .book, .join{
-    background-color: #FCF8F0;
-    color: #D98060;
+    background-color: #D98060;
+    color: #FCF8F0;
     text-decoration: none;
+    font-family: 'Merriweather','Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: #FCF8F0;
     color: #232323;
+    border: 2px solid  #232323;
 }
 .msg{
     background-color: #FCF8F0;
+    line-height: 1.5em;
 }
 footer{
     background-color: #232323;
     color: #fcf8f0;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: #D98060;
     text-decoration: none;
+    font-family: 'Merriweather','Times New Roman', Times, serif;
 }
 footer a:hover{
     color: #fcf8f0;
 }
 .home-title{
     color: #232323;
+    font-family: 'Merriweather','Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: #D98060;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 .msg h2{
     color: #D98060;
+    font-family: 'Merriweather','Times New Roman', Times, serif;
+    padding: 35px;
 }
 .msg p{
     color: #232323;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
 }
 footer p {
     font-size: 1.2em;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
 } 
 footer p a:hover {
     text-decoration: underline;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+h2{
+    color: #D98060;
+    font-family: 'Merriweather','Times New Roman', Times, serif;
+    margin: 0;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}   
+.card-img{
+    border: 10px solid #D98060;
 }
