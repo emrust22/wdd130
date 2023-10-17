@@ -4,6 +4,10 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+.logo {
+    width: 80px;
+    padding-top: 5px;
+}
 nav a{
     text-align: center;
     color: #D98060;
@@ -25,10 +29,6 @@ nav a{
 }
 .button-box{
     text-align: center;
-}
-.logo{
-    width: 80px;
-    padding-top: 5px;
 }
 main section{
     text-align: center;
