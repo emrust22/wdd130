@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'The Vibes';
+    src: url('TheVibes-Regular.eot');
+    src: url('TheVibes-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TheVibes-Regular.woff2') format('woff2'),
+        url('TheVibes-Regular.woff') format('woff'),
+        url('TheVibes-Regular.svg#TheVibes-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
