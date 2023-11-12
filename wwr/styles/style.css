@@ -216,6 +216,98 @@ footer .social img{
     padding-top: 15px;
 }
 
+#trips{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    margin: 50px;
+}
+.trip-img{
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+.dates{
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+.dates h1{
+    color:#D98060;
+    font-family: 'Merriweather','Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+.dates h2{
+    color:#232323;
+    font-family: 'Merriweather','Times New Roman', Times, serif;
+    font-size: 1em;
+}
+.dates p{
+    color:#232323;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: .8em;
+}
+.book-trip{
+    text-align: center;
+    grid-column: 1/3;
+    margin-top: 75px;
+}
+.book-now{
+background-color: #D98060;
+color: #FCF8F0;
+text-decoration: none;
+font-family: 'Merriweather','Times New Roman', Times, serif;
+font-size: 18px;
+padding: 15px 30px;
+margin: 50px;
+border-radius: 5px;
+}
+.book-now:hover {
+    background-color: #FCF8F0;
+    color: #232323;
+    border: 2px solid  #232323;
+}
+
+.faq{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 50px;
+}
+.heading{
+    grid-column: 1/6;
+    grid-row: 1/2;
+}
+.question{
+    grid-column: 2/6;
+    margin: 50px;
+    text-align: left;
+    background-color: #D98060;
+    border-color: #D98060;
+    padding: 20px;
+    border-radius: 10px;
+}
+.faq-img{
+    padding: 10px
+}
+.faq h1{
+    font-family: 'Merriweather','Times New Roman', Times, serif;
+    color: #D98060;
+    font-size: 1.5em;
+}
+.faq h2{
+    color: #232323;
+    font-family: 'Merriweather','Times New Roman', Times, serif;
+    font-size: 1em;
+}
+.faq p{
+    color:#232323;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    font-size: .8em;
+}
+.question:hover {
+    background-color: #FCF8F0;
+    color: #232323;
+    border: 2px solid  #232323;
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -252,6 +344,14 @@ footer .social img{
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    #trips, .faq {
+        display: inline-block;
+        height: auto;
+    }
+    .trip-img{
+        margin: 50px auto;
+        width: 90%;
     }
     footer {
         margin-top: 25px;
