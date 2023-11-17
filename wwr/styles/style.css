@@ -327,7 +327,7 @@ form li + li {
 label {
     /* Uniform size & alignment */
     display: inline-block;
-    width: 120px;
+    width: 150px;
     text-align: right;
     font: 1em 'Merriweather','Times New Roman', Times, serif;
 }
@@ -356,8 +356,7 @@ textarea {
     }
 .button {
 /* Align buttons with the text fields */
-padding-left: 120px; /* same size as the label elements */
-
+padding-left: 150px; /* same size as the label elements */
 }
 button {
     /* This extra margin represent roughly the same space as the space
