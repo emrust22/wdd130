@@ -1,19 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200&display=swap');
-
-@font-face {
-  font-family: 'The Vibes';
-  src: url('TheVibes-Regular.eot');
-  src: url('TheVibes-Regular.eot?#iefix') format('embedded-opentype'),
-      url('TheVibes-Regular.woff2') format('woff2'),
-      url('TheVibes-Regular.woff') format('woff'),
-      url('TheVibes-Regular.svg#TheVibes-Regular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,900&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -24,7 +12,7 @@ Fonts are separated by a | */
   --accent3-color: #F39391;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: 'The Vibes';
+  --heading-font: 'Poppins'; /*weight 900, italics*/
   --paragraph-font: 'Poppins', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
@@ -55,6 +43,8 @@ img {
 }
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
+  font-weight: 900;
+  font-style: italic;
   color: var(--headline-color-on-white);
 }
 h2 {
