@@ -63,7 +63,6 @@ hr{
 .main_heading{
     text-align: center;
     justify-content: center;
-    width: 1000px;
 }
 #home_two h2{
     font-family: 'Poppins';
@@ -127,7 +126,7 @@ hr{
 }
 .copyright{
     justify-self: center;
-    grid-column: 3;
+    grid-column: 3/4;
 }
 .footer p, a{
     font-family: 'Poppins';
@@ -138,11 +137,6 @@ hr{
     font-family: 'poppins',sans-serif;
     line-height: -5px;
     grid-column: 1;
-}
-.footer img{
-    justify-content: center;
-    grid-column: 3;
-    margin-top: 50px;
 }
 .social_footer {
     justify-content: right;
@@ -155,6 +149,12 @@ hr{
 .social_footer img{
     height: 30px;
     padding: 10px;
+}
+.footer img{
+    justify-content: auto;
+    text-align: center;
+    grid-column: 3;
+    margin-top: 50px;
 }
 #design_one{
     display: grid;
@@ -385,12 +385,17 @@ padding-left: 25px;
         justify-content: center;
         text-align: center;
     }
-    .footerimg img{
+    .footer img{
         width: 300px;
         margin-top: 20px;
     }
     .social_footer{
-        margin: 0px;
-        padding: 0px;
+        margin: 20px;
+        padding: 0px;    
+    }
+    .social_footer img{    
+        height: 30px;
+        padding: 10px;
+        width: auto;
     }
 }   
